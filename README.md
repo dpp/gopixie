@@ -12,3 +12,7 @@ But it's nice to have Pixie's immutable data structures and the ability to
 So...
 
 This project is an attempt to get both playing nicely together.
+
+## Notes
+
+Go integration with CPython: https://github.com/sbinet/go-python/blob/master/capi.go
