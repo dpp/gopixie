@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Woof"
+
+cd /data
+
+/bin/bash
+
+chown -R $(stat -c %u /data/runner.sh):$(stat -c %g /data/runner.sh) /data
